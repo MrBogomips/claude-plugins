@@ -1,6 +1,6 @@
 # mrbogomips — Claude Code plugin marketplace
 
-One marketplace for the Claude Code plugins by Mr Bogomips. Each plugin lives in its own
+One marketplace for the Claude Code plugins by MrBogomips. Each plugin lives in its own
 repository; this repository only lists them.
 
 ## Install
@@ -40,13 +40,6 @@ The marketplace does not pin plugin versions: each plugin's version comes from t
 ```
 /plugin marketplace update mrbogomips
 ```
-
-## Moving from `mrbogomips-skills`
-
-The skills used to be published one plugin per skill by the `mrbogomips-skills` marketplace,
-which no longer exists. Claude Code cannot move an installation from one marketplace to
-another, so uninstall the old `<skill>@mrbogomips-skills` plugins, remove that marketplace,
-and install `skills@mrbogomips`.
 
 ## License
 
