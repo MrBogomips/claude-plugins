@@ -41,7 +41,8 @@ rm -rf "$CLAUDE_CONFIG_DIR"
 ## Duplicate marketplaces
 
 Several MrBogomips repos still publish their own marketplace (`eng-artifacts`, `mrbogomips-tools`
-in `claude-code`). When one of their plugins is added
+in `claude-code`). `kaizen` and `personal-voice` moved from `claude-code` to `MrBogomips/skills`
+(top-level plugin folders, listed here with `git-subdir`) and left `mrbogomips-tools`. When one of their plugins is added
 here, a user who has both marketplaces sees it twice: propose removing the per-repo marketplace,
 through a PR in that repo. `MrBogomips/skills` and `MrBogomips/harness-maker` (formerly `agentic-harness`, whose
 `mrbogomips-harness` marketplace was removed in 0.12.0) have no marketplace of their own.
