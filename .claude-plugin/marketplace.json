@@ -15,6 +15,13 @@
       "description": "General-purpose agent skills: handoff, done, pause, tldr, the AGENTS.md family, Gemini web research, image generation.",
       "category": "productivity",
       "tags": ["handoff", "definition-of-done", "agents-md", "codex", "gemini", "research", "image-generation"]
+    },
+    {
+      "name": "engartifacts",
+      "source": { "source": "github", "repo": "MrBogomips/engartifacts" },
+      "description": "Skills for the optimized production of software engineering artifacts (entity relationship diagrams first) as self-contained pages with one shared visual language, a light/dark toggle and replaceable themes.",
+      "category": "development",
+      "tags": ["software-engineering", "diagram", "erd", "theme"]
     }
   ]
 }

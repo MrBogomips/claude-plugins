@@ -22,6 +22,7 @@ claude plugin install <plugin>@mrbogomips
 | Plugin | Repository | What it does |
 |--------|------------|--------------|
 | `skills` | [MrBogomips/skills](https://github.com/MrBogomips/skills) | General-purpose agent skills: handoff, done, pause, tldr, the AGENTS.md family, Gemini web research, image generation. Invoked as `/skills:<name>`. |
+| `engartifacts` | [MrBogomips/engartifacts](https://github.com/MrBogomips/engartifacts) | Optimized production of software engineering artifacts (entity relationship diagrams first) as self-contained HTML pages with one visual language, light/dark and replaceable themes. Invoked as `/engartifacts:<name>`, or picked up from a plain request. |
 
 Claude Code installs a plugin as a whole: `skills@mrbogomips` brings every skill in the set. To
 install a single skill, in Claude Code or in another agent, use the

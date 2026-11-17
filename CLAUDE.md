@@ -40,7 +40,7 @@ rm -rf "$CLAUDE_CONFIG_DIR"
 
 ## Duplicate marketplaces
 
-Several MrBogomips repos still publish their own marketplace (`artifacts`, `mrbogomips-harness`
+Several MrBogomips repos still publish their own marketplace (`engartifacts`, `mrbogomips-harness`
 in `agentic-harness`, `mrbogomips-tools` in `claude-code`). When one of their plugins is added
 here, a user who has both marketplaces sees it twice: propose removing the per-repo marketplace,
 through a PR in that repo. `MrBogomips/skills` already has no marketplace of its own.
