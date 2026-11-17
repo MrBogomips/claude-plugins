@@ -22,6 +22,13 @@
       "description": "Skills for the optimized production of software engineering artifacts (entity relationship diagrams first) as self-contained pages with one shared visual language, a light/dark toggle and replaceable themes.",
       "category": "development",
       "tags": ["software-engineering", "diagram", "erd", "theme"]
+    },
+    {
+      "name": "harness-maker",
+      "source": { "source": "github", "repo": "MrBogomips/harness-maker" },
+      "description": "Stand up, assess, and maintain an agentic harness in an existing repo: generate project-specific agent teams and the skills they use, assess how effectively they are used, advise on spec-driven development systems, agent-suited issue trackers and a domain-fitting visual stack, check the machine for the tools a harness needs, and file tool-improvement feedback upstream.",
+      "category": "development",
+      "tags": ["harness", "agents", "skills", "scaffolding", "orchestration", "multi-agent", "spec-driven-development", "issue-tracker"]
     }
   ]
 }
