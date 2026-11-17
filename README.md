@@ -23,6 +23,7 @@ claude plugin install <plugin>@mrbogomips
 |--------|------------|--------------|
 | `skills` | [MrBogomips/skills](https://github.com/MrBogomips/skills) | General-purpose agent skills: handoff, done, pause, tldr, the AGENTS.md family, Gemini web research, image generation. Invoked as `/skills:<name>`. |
 | `eng-artifacts` | [MrBogomips/eng-artifacts](https://github.com/MrBogomips/eng-artifacts) | Optimized production of software engineering artifacts (entity relationship diagrams first) as self-contained HTML pages with one visual language, light/dark and replaceable themes. Invoked as `/eng-artifacts:<name>`, or picked up from a plain request. |
+| `harness-maker` | [MrBogomips/harness-maker](https://github.com/MrBogomips/harness-maker) | Stands up, assesses and maintains an agentic harness in an existing repo: project-specific agent teams, the skills they use and an orchestrator, with advisors for spec systems, issue trackers and visuals, and a machine check for the tools a harness needs. Invoked as `/harness-maker:<name>`. Formerly `agentic-harness@mrbogomips-harness`: uninstall that and install this. |
 
 Claude Code installs a plugin as a whole: `skills@mrbogomips` brings every skill in the set. To
 install a single skill, in Claude Code or in another agent, use the
