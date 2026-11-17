@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mrbogomips",
+  "owner": {
+    "name": "Mr Bogomips",
+    "url": "https://github.com/MrBogomips"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Mr Bogomips, each one hosted in its own repository"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": { "source": "github", "repo": "MrBogomips/skills" },
+      "description": "General-purpose agent skills: handoff, done, pause, tldr, the AGENTS.md family, Gemini web research, image generation.",
+      "category": "productivity",
+      "tags": ["handoff", "definition-of-done", "agents-md", "codex", "gemini", "research", "image-generation"]
+    }
+  ]
+}
