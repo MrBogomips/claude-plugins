@@ -24,6 +24,13 @@
       "tags": ["software-engineering", "diagram", "erd", "theme"]
     },
     {
+      "name": "eng-skills",
+      "source": { "source": "github", "repo": "MrBogomips/eng-skills" },
+      "description": "Skills and agents for engineering work, technical writing first: doc comments, API references, error messages, manuals and release notes written for the audience each text reaches, with requirement IDs kept out of published text and traceability kept in implementation comments; a leak scanner, a writer agent and an independent reviewer agent.",
+      "category": "development",
+      "tags": ["technical-writing", "documentation", "api-docs", "traceability", "diagrams", "review"]
+    },
+    {
       "name": "harness-maker",
       "source": { "source": "github", "repo": "MrBogomips/harness-maker" },
       "description": "Stand up, assess, and maintain an agentic harness in an existing repo: generate project-specific agent teams and the skills they use, assess how effectively they are used, advise on spec-driven development systems, agent-suited issue trackers and a domain-fitting visual stack, check the machine for the tools a harness needs, and file tool-improvement feedback upstream.",
