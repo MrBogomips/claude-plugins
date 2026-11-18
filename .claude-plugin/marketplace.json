@@ -29,6 +29,20 @@
       "description": "Stand up, assess, and maintain an agentic harness in an existing repo: generate project-specific agent teams and the skills they use, assess how effectively they are used, advise on spec-driven development systems, agent-suited issue trackers and a domain-fitting visual stack, check the machine for the tools a harness needs, and file tool-improvement feedback upstream.",
       "category": "development",
       "tags": ["harness", "agents", "skills", "scaffolding", "orchestration", "multi-agent", "spec-driven-development", "issue-tracker"]
+    },
+    {
+      "name": "kaizen",
+      "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/skills.git", "path": "kaizen" },
+      "description": "Session retrospective — links the errors, reworks and ambiguities of a session to the skills, rules, CLAUDE.md, memory, hooks and settings behind them, and applies only explicitly authorized, reviewed fixes to the project's own files.",
+      "category": "development",
+      "tags": ["kaizen", "retrospective", "improvement", "skills", "claude-md", "hooks"]
+    },
+    {
+      "name": "personal-voice",
+      "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/skills.git", "path": "personal-voice" },
+      "description": "Personal writing voice — writes documents, emails and messages in the author's tone and lexicon, learns from the author's revisions and own texts, and maintains the profile only with per-item approval.",
+      "category": "productivity",
+      "tags": ["writing", "voice", "tone", "style", "lexicon", "personalization"]
     }
   ]
 }
