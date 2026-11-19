@@ -50,6 +50,13 @@
       "description": "Personal writing voice — writes documents, emails and messages in the author's tone and lexicon, learns from the author's revisions and own texts, and maintains the profile only with per-item approval.",
       "category": "productivity",
       "tags": ["writing", "voice", "tone", "style", "lexicon", "personalization"]
+    },
+    {
+      "name": "pm-artifacts",
+      "source": { "source": "github", "repo": "MrBogomips/pm-artifacts" },
+      "description": "Decision boards for project managers as self-contained pages: an agile board with sprints and capacity, epics, roadmap, progress with release fit and people allocation, with the findings to decide on; editable and saved in place when published as an artifact.",
+      "category": "productivity",
+      "tags": ["project-management", "agile", "board", "roadmap", "allocation", "artifacts"]
     }
   ]
 }
