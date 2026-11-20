@@ -64,6 +64,20 @@
       "description": "Opinionated tools for producing quality skills and plugins — first skill: inventories, checks and drafts the public README of a plugin and of each skill it ships against a fixed section contract, with an independent fact reviewer and a final validation script.",
       "category": "development",
       "tags": ["skills", "plugins", "readme", "documentation", "validation", "authoring"]
+    },
+    {
+      "name": "session-hub",
+      "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/agent-orchestration.git", "path": "session-hub" },
+      "description": "Coordinates a master session in a hub of repositories and the child sessions it starts, one per repository: a written scope enforced by a fail-closed hook, master-only messages, routing of out-of-scope requests, and a record of the children kept outside the hub. Successor of spawn-session.",
+      "category": "development",
+      "tags": ["sessions", "orchestration", "multi-repo", "hub", "scope"]
+    },
+    {
+      "name": "model-router",
+      "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/agent-orchestration.git", "path": "model-router" },
+      "description": "Picks the model and the effort level for sessions and subagents with one written grid, task-class tags and project defaults; measuring and adapting are planned for later releases.",
+      "category": "development",
+      "tags": ["model", "effort", "routing", "subagents", "cost"]
     }
   ]
 }
