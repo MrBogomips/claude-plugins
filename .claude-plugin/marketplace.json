@@ -57,6 +57,13 @@
       "description": "Decision boards for project managers as self-contained pages: an agile board with sprints and capacity, epics, roadmap, progress with release fit and people allocation, with the findings to decide on; editable and saved in place when published as an artifact.",
       "category": "productivity",
       "tags": ["project-management", "agile", "board", "roadmap", "allocation", "artifacts"]
+    },
+    {
+      "name": "skill-maker",
+      "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/skills.git", "path": "skill-maker" },
+      "description": "Opinionated tools for producing quality skills and plugins — first skill: inventories, checks and drafts the public README of a plugin and of each skill it ships against a fixed section contract, with an independent fact reviewer and a final validation script.",
+      "category": "development",
+      "tags": ["skills", "plugins", "readme", "documentation", "validation", "authoring"]
     }
   ]
 }
