@@ -59,6 +59,13 @@
       "tags": ["project-management", "agile", "board", "roadmap", "allocation", "artifacts"]
     },
     {
+      "name": "pm-skills",
+      "source": { "source": "github", "repo": "MrBogomips/pm-skills" },
+      "description": "Everyday project management support: a team register kept in the project and reconciled with GitHub and Jira, and suggestions of who should take a task or review a pull request. Skills, an agent and hooks.",
+      "category": "productivity",
+      "tags": ["project-management", "team", "jira", "github", "assignment", "review"]
+    },
+    {
       "name": "skill-maker",
       "source": { "source": "git-subdir", "url": "https://github.com/MrBogomips/skills.git", "path": "skill-maker" },
       "description": "Opinionated tools for producing quality skills and plugins — first skill: inventories, checks and drafts the public README of a plugin and of each skill it ships against a fixed section contract, with an independent fact reviewer and a final validation script.",
