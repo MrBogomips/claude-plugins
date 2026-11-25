@@ -61,9 +61,9 @@
     {
       "name": "pm-skills",
       "source": { "source": "github", "repo": "MrBogomips/pm-skills" },
-      "description": "Everyday project management support: a team register kept in the project and reconciled with GitHub and Jira, and suggestions of who should take a task or review a pull request. Skills, an agent and hooks.",
+      "description": "Project management skills, optimized for software: small validated registers in the project (configuration, tools, team, capacity, stakeholders, risks, decisions, changes, schedule, budget), status reports, minutes, Scrum events, roadmap, flow metrics, forecasts, release plans, estimates, critical path and earned value, with agents and hooks.",
       "category": "productivity",
-      "tags": ["project-management", "team", "jira", "github", "assignment", "review"]
+      "tags": ["project-management", "scrum", "kanban", "risk", "status-report", "jira", "github"]
     },
     {
       "name": "skill-maker",
